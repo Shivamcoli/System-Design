@@ -1,6 +1,11 @@
 class Car:
-    def __init__(self, name):
-        self.name = name
+    _instance = None
+    
+    def __new__(cls, name):
+        if cls._instance is None:
+            cls._instance = super(Car, cls).__new__(cls)
+            cls._instance.name = name
+        return cls._instance
     
     def drive(self):
         print( f"{self.name} is driving.")
@@ -11,3 +16,5 @@ class Car:
 obj1 = Car("Toyota")
 obj1.drive()
 obj1.stop()    
+obj2= Car("Honda")
+obj2.drive()
