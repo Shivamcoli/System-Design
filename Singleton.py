@@ -39,3 +39,5 @@ obj3.ride()
 obj3.park()
 obj4 = Bike("Ducati")
 obj4.ride()
+
+
