@@ -1,0 +1,20 @@
+Assumptions
+Both files are empty, so I'm proposing a standard design for a CLI/programmable Snake & Ladder game.
+Board size: default 100 (1..100). This is configurable.
+Game rule chosen: "exact finish" required to win (player must land exactly on square size). I document alternatives and how to change.
+Single-threaded game loop (typical CLI). Concurrency and network features can be added later if needed.
+Language: Python (matching file names).
+
+Classes:
+Board : fixed size, had snakes and ladder , at 100 win
+Player : store total number of player
+Rule: had all rules and wiing also
+main : had the interfacer to had all this classes
+dice : add all number 
+
+Methods :
+1) Board: size,Snakes : top to bottom , ladder, player position
+2) Player : name , add player , list of player
+3) Rules: roll dice , turn, winning
+4) main : init , play
+5) dice : init had number , roll function
