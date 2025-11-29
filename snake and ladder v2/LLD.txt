@@ -1,0 +1,5 @@
+class : Game engine| Board| Player| Dice|
+Game Engine: Start, rules, winner
+Board: board size| snake| ladder
+Player: player list| position list
+Dice: Numbers mention ondice and roll function
