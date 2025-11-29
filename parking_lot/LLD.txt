@@ -1,0 +1,7 @@
+class:
+Parking lot| ticket| payment
+
+methods
+ticket = Id, fees, create ticket
+payment= payrmnt portal, deduct payment
+parking lot = list of parking available, entry, exit, free a spot, book a spot
