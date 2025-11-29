@@ -1,0 +1,3 @@
+class LRU cache
+method:
+LRU cache: get latest, put element
