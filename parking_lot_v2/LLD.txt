@@ -1,0 +1,58 @@
+✅ ParkingLot
+
+addSpot
+
+removeSpot
+
+findAvailableSpot
+
+parkVehicle
+
+unparkVehicle
+
+getAvailableCount
+
+getTotalCapacity
+
+getStatus
+
+✅ ParkingSpot
+
+isAvailable
+
+assignVehicle
+
+removeVehicle
+
+getSpotId
+
+getSize
+
+✅ Vehicle (base class)
+
+getLicensePlate
+
+getSize
+
+Car (extends Vehicle)
+Motorcycle (extends Vehicle)
+Truck (extends Vehicle)
+✅ Ticket
+
+generateTicket
+
+closeTicket
+
+getTicketId
+
+getEntryTime
+
+getExitTime
+
+getAmountDue
+
+✅ PaymentProcessor (if you need fee calculation)
+
+calculateFee
+
+processPayment
