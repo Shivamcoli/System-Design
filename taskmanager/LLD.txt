@@ -1,0 +1,8 @@
+
+Design Search Autocomplete System
+
+Class : Task Manager, Tasks, Subtask
+Method:
+Task Manger: create task , accept task, complete task
+Task: crete subtask, changes status of subtask, complete subtask, list subtask
+Subtask: init(title, priority, date , author,status)
