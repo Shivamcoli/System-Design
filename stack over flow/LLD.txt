@@ -1,0 +1,6 @@
+class : manager question, answer, comment
+
+Method 
+Question : List of comment, add comment, user rating
+answer : List of comment, add comment, user rating
+Manager: list question, list of answer,add question, add answer, add vode
