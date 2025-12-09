@@ -1,0 +1,9 @@
+class : Account,Card, ATM
+
+method
+Account - Account number, balace , get available balance,update balance
+card - card number, pin , deduct payment(required pin), balace enquirey(required pin)
+ATM - get balace, withdraw
+
+
+
