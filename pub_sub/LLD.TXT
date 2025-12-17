@@ -1,0 +1,23 @@
+1. Message
+
+Attributes: content, topic_name, timestamp.
+
+2. Topic (The Bridge)
+
+Attributes: name, list_of_subscribers.
+
+Methods: add_subscriber(sub), remove_subscriber(sub), publish(message).
+
+3. Publisher
+
+Methods: send(topic_name, content). (It just sends to the Manager/Topic).
+
+4. Subscriber (Interface)
+
+Methods: update(message). (This is how it "receives" the data).
+
+5. PubSubManager (The Broker)
+
+Attributes: map_of_topics (e.g., {"Tech": TopicObject}).
+
+Methods: create_topic(name), subscribe(topic_name, subscriber), publish(topic_name, content).
