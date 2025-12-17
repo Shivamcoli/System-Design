@@ -1,0 +1,7 @@
+class: query , Mnager
+method:
+query: type, content
+
+Manager:
+list of type
+log message

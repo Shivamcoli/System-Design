@@ -54,7 +54,7 @@ if __name__ == "__main__":
     balance = atm.check_balance("1111-2222-3333-4444", "1234")
     print(f"Balance: {balance}")
     new_balance = atm.withdraw("1111-2222-3333-4444", "1234", 200)
-    print(f"New Balance after withdrawal 200: {new_balance}")
+    print(f"New Balance after withdrawal 200 : {new_balance}")
 
     
     
