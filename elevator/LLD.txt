@@ -1,0 +1,7 @@
+1) its a multi elevator
+2) we can send request for both in side and outside
+3) so  for algo we use closet elevator first
+
+class: Elevator, floor, Elevator manager, elevator strategy
+Method elevator : curtent floor , current dirction, upcoming floor
+floor: press up button, press down button
