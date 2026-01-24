@@ -11,6 +11,7 @@ class FoodDeliverySystem:
         self.name=input("Please enter your name of restraunt: ")
         self.new_restraunt = Restraunt(self.name)
         self.restraunt_list[self.global_restraunt_cnt] = self.new_restraunt
+        self.global_restraunt_cnt+=1
 
     def add_food_to_restraunt(self):
         for res_id,res in self.restraunt_list.items():
